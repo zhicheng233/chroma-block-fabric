@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "chroma-block-fabric:block/pink_chroma_block"
-  }
-}

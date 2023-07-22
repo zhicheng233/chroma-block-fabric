@@ -29,7 +29,7 @@ public class MainMod implements ModInitializer {
 	public static final Block CBF_Red = new Block(FabricBlockSettings.create().strength(0.1f,1200.0f).luminance(16));
 	public static final Block CBF_Yellow  = new Block(FabricBlockSettings.create().strength(0.1f,1200.0f).luminance(16));
 	public static final Block CBF_Blue  = new Block(FabricBlockSettings.create().strength(0.1f,1200.0f).luminance(16));
-	public static final Block CBF_Pink  = new Block(FabricBlockSettings.create().strength(0.1f,1200.0f).luminance(16));
+	public static final Block CBF_purple  = new Block(FabricBlockSettings.create().strength(0.1f,1200.0f).luminance(16));
 	public static final Block CBF_Black  = new Block(FabricBlockSettings.create().strength(0.1f,1200.0f).luminance(16));
 	public static final Block CBF_White  = new Block(FabricBlockSettings.create().strength(0.1f,1200.0f).luminance(16));
 	//学习原版方法获取CBF_GROUP_KEY，去TM的傻逼Fabric Wiki文档常年不更新
@@ -55,7 +55,7 @@ public class MainMod implements ModInitializer {
 			content.add(CBF_Green);
 			content.add(CBF_Red);
 			content.add(CBF_Blue);
-			content.add(CBF_Pink);
+			content.add(CBF_purple);
 			content.add(CBF_Black);
 			content.add(CBF_White);
 		});
@@ -72,8 +72,8 @@ public class MainMod implements ModInitializer {
 		Registry.register(Registries.BLOCK, new Identifier(modid, "blue_chroma_block"), CBF_Blue);
 		Registry.register(Registries.ITEM, new Identifier(modid, "blue_chroma_block"), new BlockItem(CBF_Blue, new FabricItemSettings()));
 
-		Registry.register(Registries.BLOCK, new Identifier(modid, "pink_chroma_block"), CBF_Pink);
-		Registry.register(Registries.ITEM, new Identifier(modid, "pink_chroma_block"), new BlockItem(CBF_Pink, new FabricItemSettings()));
+		Registry.register(Registries.BLOCK, new Identifier(modid, "purple_chroma_block"), CBF_purple);
+		Registry.register(Registries.ITEM, new Identifier(modid, "purple_chroma_block"), new BlockItem(CBF_purple, new FabricItemSettings()));
 
 		Registry.register(Registries.BLOCK, new Identifier(modid, "black_chroma_block"), CBF_Black);
 		Registry.register(Registries.ITEM, new Identifier(modid, "black_chroma_block"), new BlockItem(CBF_Black, new FabricItemSettings()));
