@@ -11,7 +11,7 @@
 		"homepage": "https://zhicheng233.github.io/homepage or https://www.zhicheng233.eu.org(soon~)",
 		"sources": "https://github.com/zhicheng233/Chroma-Block-Fabric"
 	},
-	"license": "CC0-1.0",
+	"license": "GPL-3.0 license",
 	"icon": "assets/chroma-block-fabric/icon.png",
 	"environment": "*",
 	"entrypoints": {
