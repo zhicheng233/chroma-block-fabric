@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "chroma-block-fabric:block/blue_chroma_block" }
+  }
+}

@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "chroma-block-fabric",
+	"version": "${version}",
+	"name": "Chroma Block Fabric",
+	"description": "适用于Minecraft Fabric高版本的色度方块，用于Minecraft艺术类视频的创作 | Chroma Block for Minecraft Fabric High for Minecraft Artistic Videos",
+	"authors": [
+		"志成zhi_cheng | zhi_cheng233"
+	],
+	"contact": {
+		"homepage": "https://zhicheng233.github.io/homepage or https://www.zhicheng233.eu.org(soon~)",
+		"sources": "https://github.com/zhicheng233/Chroma-Block-Fabric"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/chroma-block-fabric/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"cn.zhicheng233.chromablockfabric.MainMod"
+		],
+		"client": [
+			"cn.zhicheng233.chromablockfabric.ExampleModClient"
+		]
+	},
+	"mixins": [
+		"chroma-block-fabric.mixins.json",
+		{
+			"config": "chroma-block-fabric.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

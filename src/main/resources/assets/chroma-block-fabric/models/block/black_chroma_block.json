@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "chroma-block-fabric:block/black_chroma_block"
+  }
+}
