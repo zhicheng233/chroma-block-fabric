@@ -6,5 +6,6 @@
   "block.chroma-block-fabric.black_chroma_block": "Black Chroma Block",
   "block.chroma-block-fabric.blue_chroma_block": "Blue Chroma Block",
   "block.chroma-block-fabric.white_chroma_block": "White Chroma Block",
-  "itemGroup.chroma-block-fabric.chroma_block": "Chroma Block"
+  "itemGroup.chroma-block-fabric.chroma_block": "Chroma Block",
+  "chroma-block-fabric.WelcomeMessage": "&g欢迎使用Chroma Block Fabric"
 }
