@@ -33,10 +33,7 @@
 	"suggests": {
 		"another-mod": "*"
 	},
-	"conflicts": {
-		"sodium": "*",
-		"iris": "*"
-	},
+
 	"custom": {
 		"modmenu": {
 			"links": {
