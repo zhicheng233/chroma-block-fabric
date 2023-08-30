@@ -69,7 +69,7 @@ public class MainMod implements ModInitializer {
 					PlayerEntity player = (PlayerEntity) playerList.get(0);
 					// 发送聊天栏消息
 					player.sendMessage(Text.of("§a§l Donator:"));
-					player.sendMessage(Text.of("§eATC_rock 30￥"));
+					player.sendMessage(Text.of("§eATC_rock 20￥"));
 					player.sendMessage(Text.of("§l----------------------------"));
 					player.sendMessage(Text.of("§e欢迎使用Chroma Block Fabric"));
 					welcome = false;

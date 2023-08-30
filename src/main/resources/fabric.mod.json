@@ -10,7 +10,8 @@
 	"contact": {
 		"homepage": "https://zhicheng233.github.io/homepage",
 		"sources": "https://github.com/zhicheng233/Chroma-Block-Fabric",
-		"donate": "https://afdian.net/a/zhi_cheng233"
+		"issues": "https://github.com/zhicheng233/chroma-block-fabric/issues"
+
 	},
 	"license": "GPL-3.0 license",
 	"icon": "assets/chroma-block-fabric/icon.png",
@@ -28,9 +29,20 @@
 		"minecraft": "~1.20",
 		"java": ">=17",
 		"fabric-api": "*"
-
 	},
 	"suggests": {
 		"another-mod": "*"
+	},
+	"conflicts": {
+		"sodium": "*",
+		"iris": "*"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.donate": "https://afdian.net/a/zhi_cheng233"
+			},
+			"update_checker": true
+		}
 	}
 }
