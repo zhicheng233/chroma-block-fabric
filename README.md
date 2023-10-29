@@ -1,3 +1,4 @@
+
 # Chroma Block Fabric
  [EN](#1)   [中文](#2)  [Donator/赞助名单❤️](#3)
 ![](https://zhicheng233.github.io/Software-data/chroma-block-fabric/LOGO.png)
@@ -48,3 +49,14 @@ However, with the correct settings, unexpected effects can be achieved:
 
 部分光影需要关闭/降低BOOM效果否则会出现下面的状况:
 ![](https://zhicheng233.github.io/Software-data/chroma-block-fabric/2023-07-22_16.44.10.png)
+
+
+当然通过正确地设置可以达到意想不到的效果:
+![](https://zhicheng233.github.io/Software-data/chroma-block-fabric/2023-07-22_16.43.57.png)
+
+
+<h2 id="3">Donator❤️</h2>
+
+### Thank you for your support
+
+ATC_rock 20￥
